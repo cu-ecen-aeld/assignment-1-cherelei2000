@@ -18,7 +18,7 @@ let b=0
 let slash=0
 
 firstCharacter=${writefile:0:1}
-echo $firstCharacter
+#echo $firstCharacter
 
 if [[ "$firstCharacter" =~ [^[:alnum:]]+ ]]
 then
